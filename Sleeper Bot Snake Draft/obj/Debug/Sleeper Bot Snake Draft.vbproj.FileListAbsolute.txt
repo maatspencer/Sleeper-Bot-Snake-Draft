@@ -1,0 +1,11 @@
+C:\Users\Matt\AppData\Local\Temporary Projects\Sleeper Bot Snake Draft\bin\Debug\Sleeper Bot Snake Draft.exe.config
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\bin\Debug\Sleeper Bot Snake Draft.exe.config
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\bin\Debug\Sleeper Bot Snake Draft.exe
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\bin\Debug\Sleeper Bot Snake Draft.pdb
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\bin\Debug\Sleeper Bot Snake Draft.xml
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\obj\Debug\Sleeper_Bot_Snake_Draft.Main.resources
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\obj\Debug\Sleeper_Bot_Snake_Draft.Resources.resources
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\obj\Debug\Sleeper Bot Snake Draft.vbproj.GenerateResource.Cache
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\obj\Debug\Sleeper Bot Snake Draft.exe
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\obj\Debug\Sleeper Bot Snake Draft.xml
+C:\Users\Matt\Documents\Visual Studios Projects\Sleeper Bot Snake Draft\Sleeper Bot Snake Draft\obj\Debug\Sleeper Bot Snake Draft.pdb
