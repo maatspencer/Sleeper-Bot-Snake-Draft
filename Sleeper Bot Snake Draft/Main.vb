@@ -490,5 +490,36 @@ Public Class Main
                 sw.WriteLine(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.FlexPoints & "," & t.Points)
             Next
         End Using
+
+        'RB
+        Using sw As StreamWriter = New StreamWriter(My.Application.Info.DirectoryPath & "/Reports/RBRank.csv")
+            sw.WriteLine("Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points")
+            For i = 0 To oRB.Count - 1
+                Dim t As Offense = oRB.Item(i)
+                sw.WriteLine(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.CSRPoints & "," & t.Points)
+            Next
+        End Using
+
+        'WR
+        Using sw As StreamWriter = New StreamWriter(My.Application.Info.DirectoryPath & "/Reports/WRRank.csv")
+            sw.WriteLine("Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points")
+            For i = 0 To oRB.Count - 1
+                Dim t As Offense = oRB.Item(i)
+                sw.WriteLine(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.CSRPoints & "," & t.Points)
+            Next
+        End Using
+
+        'TE
+        Using sw As StreamWriter = New StreamWriter(My.Application.Info.DirectoryPath & "/Reports/TERank.csv")
+            sw.WriteLine("Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points")
+            For i = 0 To oTE.Count - 1
+                Dim t As Offense = oTE.Item(i)
+                sw.WriteLine(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.CSRPoints & "," & t.Points)
+            Next
+        End Using
+
+        MessageBox.Show("Done. Located in: " & vbNewLine & My.Application.Info.DirectoryPath & "/Reports")
+
+
     End Sub
 End Class
