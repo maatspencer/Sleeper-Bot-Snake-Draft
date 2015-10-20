@@ -484,10 +484,10 @@ Public Class Main
 
         'Flex
         Using sw As StreamWriter = New StreamWriter(My.Application.Info.DirectoryPath & "/Reports/FlexRank.csv")
-            sw.Write("Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points")
+            sw.WriteLine("Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points")
             For i = 0 To oFlex.Count - 1
                 Dim t As Offense = oFlex.Item(i)
-                sw.Write(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.FlexPoints & "," & t.Points)
+                sw.WriteLine(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.FlexPoints & "," & t.Points)
             Next
         End Using
     End Sub
