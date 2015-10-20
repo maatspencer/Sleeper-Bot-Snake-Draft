@@ -503,8 +503,8 @@ Public Class Main
         'WR
         Using sw As StreamWriter = New StreamWriter(My.Application.Info.DirectoryPath & "/Reports/WRRank.csv")
             sw.WriteLine("Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points")
-            For i = 0 To oRB.Count - 1
-                Dim t As Offense = oRB.Item(i)
+            For i = 0 To oWR.Count - 1
+                Dim t As Offense = oWR.Item(i)
                 sw.WriteLine(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.CSRPoints & "," & t.Points)
             Next
         End Using
