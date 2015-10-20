@@ -118,12 +118,12 @@ Public Class initialBuild
         oFlex = New List(Of Offense)
 
         ' WR
-        For i = 11 To oWR.Count - 1
+        For i = 23 To oWR.Count - 1
             oFlex.Add(oWR.Item(i))
         Next
 
         ' RB
-        For i = 11 To oRB.Count - 1
+        For i = 23 To oRB.Count - 1
             oFlex.Add(oRB.Item(i))
         Next
 
