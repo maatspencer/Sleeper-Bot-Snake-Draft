@@ -119,30 +119,38 @@ Public Class UpdateItems
                 If isDraft Then
                     mQB += 1
                     aQB += 1
+                    switchQB = False
                 Else
                     aQB += 1
                 End If
             Case "WR"
                 If isDraft Then
-                    mWR += 1
-                    aWR += 1
+                        mWR += 1
+                        aWR += 1
+                        If mWR = 2 Then
+                            switchWR = False
+                        End If
                 Else
                     aWR += 1
                 End If
             Case "RB"
-                If isDraft Then
-                    mRB += 1
+                    If isDraft Then
+                        mRB += 1
                     aRB += 1
-                Else
-                    aRB += 1
-                End If
+                    If mRB = 2 Then
+                        switchRB = False
+                    End If
+                    Else
+                        aRB += 1
+                    End If
             Case "TE"
-                If isDraft Then
-                    mTE += 1
+                    If isDraft Then
+                        mTE += 1
                     aTE += 1
-                Else
-                    aTE += 1
-                End If
+                    switchTE = False
+                    Else
+                        aTE += 1
+                    End If
         End Select
 
         If isDraft Then
@@ -151,9 +159,6 @@ Public Class UpdateItems
         Else
             aRoster += 1
         End If
-
-        mFLEX = mRB + mWR + mTE
-        aFLEX = aRB + aWR + aTE
     End Sub
 
     Private Shared Sub CSRValues()

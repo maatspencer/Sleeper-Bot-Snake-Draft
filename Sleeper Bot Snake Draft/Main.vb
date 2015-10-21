@@ -234,30 +234,40 @@ Public Class Main
     End Sub
 
     Private Sub updateOverallRank()
-        For i = 0 To oRB.Count - 1
-            Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oRB.Item(i).name, StringComparison.Ordinal))
-            oRB.Item(i).OvrRank = oOvr.Item(index).OvrRank
-        Next
+        If switchRB = True Then
+            For i = 0 To oRB.Count - 1
+                Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oRB.Item(i).name, StringComparison.Ordinal))
+                oRB.Item(i).OvrRank = oOvr.Item(index).OvrRank
+            Next
+        End If
 
-        For i = 0 To oWR.Count - 1
-            Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oWR.Item(i).name, StringComparison.Ordinal))
-            oWR.Item(i).OvrRank = oOvr.Item(index).OvrRank
-        Next
+        If switchWR = True Then
+            For i = 0 To oWR.Count - 1
+                Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oWR.Item(i).name, StringComparison.Ordinal))
+                oWR.Item(i).OvrRank = oOvr.Item(index).OvrRank
+            Next
+        End If
 
-        For i = 0 To oTE.Count - 1
-            Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oTE.Item(i).name, StringComparison.Ordinal))
-            oTE.Item(i).OvrRank = oOvr.Item(index).OvrRank
-        Next
+        If switchTE = True Then
+            For i = 0 To oTE.Count - 1
+                Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oTE.Item(i).name, StringComparison.Ordinal))
+                oTE.Item(i).OvrRank = oOvr.Item(index).OvrRank
+            Next
+        End If
 
-        For i = 0 To oQB.Count - 1
-            Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oQB.Item(i).name, StringComparison.Ordinal))
-            oQB.Item(i).OvrRank = oOvr.Item(index).OvrRank
-        Next
+        If switchQB = True Then
+            For i = 0 To oQB.Count - 1
+                Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oQB.Item(i).name, StringComparison.Ordinal))
+                oQB.Item(i).OvrRank = oOvr.Item(index).OvrRank
+            Next
+        End If
 
-        For i = 0 To oFlex.Count - 1
-            Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oFlex.Item(i).name, StringComparison.Ordinal))
-            oFlex.Item(i).OvrRank = oOvr.Item(index).OvrRank
-        Next
+        If switchFLEX = True Then
+            For i = 0 To oFlex.Count - 1
+                Dim index As Integer = oOvr.FindIndex(Function(a) a.name.Equals(oFlex.Item(i).name, StringComparison.Ordinal))
+                oFlex.Item(i).OvrRank = oOvr.Item(index).OvrRank
+            Next
+        End If
 
     End Sub
     ' Ovr
@@ -450,7 +460,6 @@ Public Class Main
         Label43.Text = mQB
         Label41.Text = mRB
         Label39.Text = mWR
-
         Label47.Text = mTE
 
         Label53.Text = mFLEX
@@ -460,7 +469,6 @@ Public Class Main
         Label67.Text = aQB
         Label65.Text = aRB
         Label63.Text = aWR
-
         Label61.Text = aTE
 
         Label55.Text = aFLEX
@@ -503,8 +511,8 @@ Public Class Main
         'WR
         Using sw As StreamWriter = New StreamWriter(My.Application.Info.DirectoryPath & "/Reports/WRRank.csv")
             sw.WriteLine("Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points")
-            For i = 0 To oRB.Count - 1
-                Dim t As Offense = oRB.Item(i)
+            For i = 0 To oWR.Count - 1
+                Dim t As Offense = oWR.Item(i)
                 sw.WriteLine(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.CSRPoints & "," & t.Points)
             Next
         End Using

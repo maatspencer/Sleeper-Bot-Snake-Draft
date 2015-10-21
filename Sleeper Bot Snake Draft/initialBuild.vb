@@ -118,19 +118,38 @@ Public Class initialBuild
         oFlex = New List(Of Offense)
 
         ' WR
-        For i = 11 To oWR.Count - 1
-            oFlex.Add(oWR.Item(i))
-        Next
+        Try
+            For i = 23 - Globals.aWR To oWR.Count - 1
+                oFlex.Add(oWR.Item(i))
+            Next
+        Catch
+            For i = 0 To oWR.Count - 1
+                oFlex.Add(oWR.Item(i))
+            Next
+        End Try
 
         ' RB
-        For i = 11 To oRB.Count - 1
-            oFlex.Add(oRB.Item(i))
-        Next
+        Try
+            For i = 23 - Globals.aRB To oRB.Count - 1
+                oFlex.Add(oRB.Item(i))
+            Next
+        Catch
+            For i = 0 To oRB.Count - 1
+                oFlex.Add(oRB.Item(i))
+            Next
+        End Try
 
         ' TE
-        For i = 11 To oTE.Count - 1
-            oFlex.Add(oTE.Item(i))
-        Next
+        Try
+            For i = 11 - Globals.aWR To oTE.Count - 1
+                oFlex.Add(oTE.Item(i))
+            Next
+        Catch
+            For i = 0 To oTE.Count - 1
+                oFlex.Add(oTE.Item(i))
+            Next
+        End Try
+
 
         oFlex.Sort(Function(x, y) y.Points.CompareTo(x.Points))
 
@@ -147,24 +166,32 @@ Public Class initialBuild
         oOvr = New List(Of Offense)
 
         ' QB
-        For i = 0 To oQB.Count - 1
-            oOvr.Add(oQB.Item(i))
-        Next
+        If switchQB = True Then
+            For i = 0 To oQB.Count - 1
+                oOvr.Add(oQB.Item(i))
+            Next
+        End If
 
         ' RB
-        For i = 0 To oRB.Count - 1
-            oOvr.Add(oRB.Item(i))
-        Next
+        If switchRB = True Then
+            For i = 0 To oRB.Count - 1
+                oOvr.Add(oRB.Item(i))
+            Next
+        End If
 
         ' WR
-        For i = 0 To oWR.Count - 1
-            oOvr.Add(oWR.Item(i))
-        Next
+        If switchWR = True Then
+            For i = 0 To oWR.Count - 1
+                oOvr.Add(oWR.Item(i))
+            Next
+        End If
 
         ' TE
-        For i = 0 To oTE.Count - 1
-            oOvr.Add(oTE.Item(i))
-        Next
+        If switchTE = True Then
+            For i = 0 To oTE.Count - 1
+                oOvr.Add(oTE.Item(i))
+            Next
+        End If
 
         oOvr.Sort(Function(x, y) y.CSRPoints.CompareTo(x.CSRPoints))
 

@@ -30,4 +30,14 @@
     Public Shared cRB As Integer
     Public Shared cWR As Integer
     Public Shared cTE As Integer
+
+    ' Toggles
+    Public Shared switchQB As Boolean = True
+    Public Shared switchWR As Boolean = True
+    Public Shared switchRB As Boolean = True
+    Public Shared switchTE As Boolean = True
+    Public Shared switchFWR As Boolean = True
+    Public Shared switchFRB As Boolean = True
+    Public Shared switchFTE As Boolean = True
+    Public Shared switchFLEX As Boolean = False
 End Class
