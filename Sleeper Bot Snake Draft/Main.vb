@@ -442,7 +442,7 @@ Public Class Main
         ' Flex
         ListBox8.Items.Clear()
         For i = 0 To oFlex.Count - 1
-            ListBox8.Items.Add(oFlex.Item(i).CSRPoints & vbTab & oFlex.Item(i).Pos & vbTab & oFlex.Item(i).name)
+            ListBox8.Items.Add(oFlex.Item(i).FlexPoints & vbTab & oFlex.Item(i).Pos & vbTab & oFlex.Item(i).name)
         Next
         ListBox8.Update()
 
