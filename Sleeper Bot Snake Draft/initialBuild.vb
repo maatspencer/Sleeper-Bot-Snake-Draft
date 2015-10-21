@@ -118,11 +118,10 @@ Public Class initialBuild
         oFlex = New List(Of Offense)
 
         ' WR
-<<<<<<< HEAD
         Try
-            For i = 23 - Globals.aWR To oWR.Count - 1
-                oFlex.Add(oWR.Item(i))
-            Next
+        For i = 23 - Globals.aWR To oWR.Count - 1
+            oFlex.Add(oWR.Item(i))
+        Next
         Catch
             For i = 0 To oWR.Count - 1
                 oFlex.Add(oWR.Item(i))
@@ -139,16 +138,6 @@ Public Class initialBuild
                 oFlex.Add(oRB.Item(i))
             Next
         End Try
-=======
-        For i = 23 To oWR.Count - 1
-            oFlex.Add(oWR.Item(i))
-        Next
-
-        ' RB
-        For i = 23 To oRB.Count - 1
-            oFlex.Add(oRB.Item(i))
-        Next
->>>>>>> origin/master
 
         ' TE
         Try
