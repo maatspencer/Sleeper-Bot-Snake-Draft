@@ -22,6 +22,7 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.Ovr = New System.Windows.Forms.TabPage()
         Me.oRemove = New System.Windows.Forms.Button()
@@ -48,6 +49,7 @@ Partial Class Main
         Me.Button8 = New System.Windows.Forms.Button()
         Me.ListBox5 = New System.Windows.Forms.ListBox()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Button12 = New System.Windows.Forms.Button()
         Me.ListBox6 = New System.Windows.Forms.ListBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button10 = New System.Windows.Forms.Button()
@@ -106,7 +108,6 @@ Partial Class Main
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.Ovr.SuspendLayout()
         Me.Flex.SuspendLayout()
@@ -411,6 +412,18 @@ Partial Class Main
         Me.TabPage1.Size = New System.Drawing.Size(337, 474)
         Me.TabPage1.TabIndex = 8
         Me.TabPage1.Text = "Search"
+        '
+        'Button12
+        '
+        Me.Button12.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button12.ForeColor = System.Drawing.Color.Firebrick
+        Me.Button12.Location = New System.Drawing.Point(127, 40)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(81, 23)
+        Me.Button12.TabIndex = 14
+        Me.Button12.Text = "IR"
+        Me.Button12.UseVisualStyleBackColor = False
         '
         'ListBox6
         '
@@ -993,18 +1006,6 @@ Partial Class Main
         Me.Button9.Text = "Generate Reports"
         Me.Button9.UseVisualStyleBackColor = False
         '
-        'Button12
-        '
-        Me.Button12.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.ForeColor = System.Drawing.Color.Firebrick
-        Me.Button12.Location = New System.Drawing.Point(127, 40)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(81, 23)
-        Me.Button12.TabIndex = 14
-        Me.Button12.Text = "IR"
-        Me.Button12.UseVisualStyleBackColor = False
-        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1065,8 +1066,9 @@ Partial Class Main
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TabControl1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Main"
-        Me.Text = "Main"
+        Me.Text = "Sleeper Bot Snake Draft"
         Me.TabControl1.ResumeLayout(False)
         Me.Ovr.ResumeLayout(False)
         Me.Flex.ResumeLayout(False)
