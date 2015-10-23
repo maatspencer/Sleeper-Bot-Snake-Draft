@@ -118,43 +118,28 @@ Public Class initialBuild
         oFlex = New List(Of Offense)
 
         ' WR
-        Try
-        For i = 23 - Globals.aWR To oWR.Count - 1
+        For i = 0 To oWR.Count - 1
             oFlex.Add(oWR.Item(i))
         Next
-        Catch
-            For i = 0 To oWR.Count - 1
-                oFlex.Add(oWR.Item(i))
-            Next
-        End Try
 
         ' RB
-        Try
-            For i = 23 - Globals.aRB To oRB.Count - 1
-                oFlex.Add(oRB.Item(i))
-            Next
-        Catch
-            For i = 0 To oRB.Count - 1
-                oFlex.Add(oRB.Item(i))
-            Next
-        End Try
+        For i = 0 To oRB.Count - 1
+            oFlex.Add(oRB.Item(i))
+        Next
 
         ' TE
-        Try
-            For i = 11 - Globals.aWR To oTE.Count - 1
-                oFlex.Add(oTE.Item(i))
-            Next
-        Catch
-            For i = 0 To oTE.Count - 1
-                oFlex.Add(oTE.Item(i))
-            Next
-        End Try
-
+        For i = 0 To oTE.Count - 1
+            oFlex.Add(oTE.Item(i))
+        Next
 
         oFlex.Sort(Function(x, y) y.Points.CompareTo(x.Points))
 
         For i = 0 To oFlex.Count - 1
-            oFlex.Item(i).FlexPoints = oFlex.Item(i).Points - oFlex.Item(24 - 1).Points
+            Try
+                oFlex.Item(i).FlexPoints = oFlex.Item(i).Points - oFlex.Item(83 - Globals.aFLEX).Points
+            Catch
+                oFlex.Item(i).FlexPoints = oFlex.Item(i).Points - oFlex.Item(0).Points
+            End Try
         Next
 
         oFlex.Sort(Function(x, y) y.FlexPoints.CompareTo(x.FlexPoints))

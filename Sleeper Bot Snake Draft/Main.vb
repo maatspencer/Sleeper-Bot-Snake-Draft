@@ -279,7 +279,9 @@ Public Class Main
 
         updateOverallRank()
         updateListBoxes()
-        ListBox1.SetSelected(0, True)
+        If oOvr.Count > 0 Then
+            ListBox1.SetSelected(0, True)
+        End If
     End Sub
 
     Private Sub oRemove_Click(sender As Object, e As EventArgs) Handles oRemove.Click
@@ -529,5 +531,47 @@ Public Class Main
         MessageBox.Show("Done. Located in: " & vbNewLine & My.Application.Info.DirectoryPath & "/Reports")
 
 
+    End Sub
+    ' Search
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        If Not TextBox1.Text = "" Then
+            For i = 0 To oOvr.Count - 1
+                If oOvr.Item(i).name.Contains(TextBox1.Text) Then
+                    ListBox6.Items.Add(oOvr.Item(i).Pos & " " & oOvr.Item(i).name)
+                End If
+            Next
+        End If
+    End Sub
+    ' Remove Search
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        Dim pos = ListBox6.SelectedItem.ToString.Split(" ")(0)
+        Dim name As String = ListBox6.SelectedItem.ToString.Replace(pos & " ", "")
+        UpdateItems.Start(name, pos, False)
+        initialBuild.buildFlex()
+        initialBuild.buildOverall()
+
+        updateOverallRank()
+        updateListBoxes()
+
+        TextBox1.Text = ""
+        TextBox1.Select()
+
+        ListBox6.Items.Clear()
+        ListBox6.Update()
+    End Sub
+    ' IR Search
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        UpdateItems.removeItem(ListBox6.SelectedItem.ToString)
+        initialBuild.buildFlex()
+        initialBuild.buildOverall()
+
+        updateOverallRank()
+        updateListBoxes()
+
+        TextBox1.Text = ""
+        TextBox1.Select()
+
+        ListBox6.Items.Clear()
+        ListBox6.Update()
     End Sub
 End Class

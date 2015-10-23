@@ -12,7 +12,7 @@ Public Class UpdateItems
         Lists()
     End Sub
 
-    Private Shared Sub removeItem(name As String)
+    Public Shared Sub removeItem(name As String)
         ' QB
         For i = 0 To oQB.Count - 1
             Dim index As Integer = oQB.FindIndex(Function(a) a.name.Equals(name, StringComparison.Ordinal))
@@ -51,7 +51,7 @@ Public Class UpdateItems
 
     End Sub
 
-    Private Shared Sub Lists()
+    Public Shared Sub Lists()
         ' QB
         For i = 0 To oQB.Count - 1
             Try
@@ -159,6 +159,9 @@ Public Class UpdateItems
         Else
             aRoster += 1
         End If
+
+        aFLEX = aWR + aRB + aTE
+        mFLEX = mWR + mRB + mTE
     End Sub
 
     Private Shared Sub CSRValues()
