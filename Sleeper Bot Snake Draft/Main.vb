@@ -532,46 +532,52 @@ Public Class Main
 
 
     End Sub
-    ' Search
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        If Not TextBox1.Text = "" Then
-            For i = 0 To oOvr.Count - 1
-                If oOvr.Item(i).name.Contains(TextBox1.Text) Then
-                    ListBox6.Items.Add(oOvr.Item(i).Pos & " " & oOvr.Item(i).name)
-                End If
-            Next
-        End If
-    End Sub
     ' Remove Search
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
-        Dim pos = ListBox6.SelectedItem.ToString.Split(" ")(0)
-        Dim name As String = ListBox6.SelectedItem.ToString.Replace(pos & " ", "")
-        UpdateItems.Start(name, pos, False)
-        initialBuild.buildFlex()
-        initialBuild.buildOverall()
+        If Not ListBox6.SelectedItem = Nothing Then
+            Dim pos = ListBox6.SelectedItem.ToString.Split(" ")(0)
+            Dim name As String = ListBox6.SelectedItem.ToString.Replace(pos & " ", "")
+            UpdateItems.Start(name, pos, False)
+            initialBuild.buildFlex()
+            initialBuild.buildOverall()
 
-        updateOverallRank()
-        updateListBoxes()
+            updateOverallRank()
+            updateListBoxes()
 
-        TextBox1.Text = ""
-        TextBox1.Select()
+            TextBox1.Text = ""
+            TextBox1.Select()
 
-        ListBox6.Items.Clear()
-        ListBox6.Update()
+            ListBox6.Items.Clear()
+            ListBox6.Update()
+        End If
     End Sub
     ' IR Search
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        UpdateItems.removeItem(ListBox6.SelectedItem.ToString)
-        initialBuild.buildFlex()
-        initialBuild.buildOverall()
+        If Not ListBox6.SelectedItem = Nothing Then
+            UpdateItems.removeItem(ListBox6.SelectedItem.ToString)
+            initialBuild.buildFlex()
+            initialBuild.buildOverall()
 
-        updateOverallRank()
-        updateListBoxes()
+            updateOverallRank()
+            updateListBoxes()
 
-        TextBox1.Text = ""
-        TextBox1.Select()
+            TextBox1.Text = ""
+            TextBox1.Select()
 
-        ListBox6.Items.Clear()
-        ListBox6.Update()
+            ListBox6.Items.Clear()
+            ListBox6.Update()
+        End If
+    End Sub
+    ' Search
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        If Not TextBox1.Text = "" Then
+            ListBox6.Items.Clear()
+            For i = 0 To oOvr.Count - 1
+                If oOvr.Item(i).name.IndexOf(TextBox1.Text, 0, StringComparison.CurrentCultureIgnoreCase) > -1 Then
+                    ListBox6.Items.Add(oOvr.Item(i).Pos & " " & oOvr.Item(i).name)
+                End If
+            Next
+            ListBox6.Update()
+        End If
     End Sub
 End Class

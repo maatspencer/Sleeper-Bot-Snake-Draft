@@ -53,7 +53,6 @@ Partial Class Main
         Me.ListBox6 = New System.Windows.Forms.ListBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
@@ -406,7 +405,6 @@ Partial Class Main
         Me.TabPage1.Controls.Add(Me.ListBox6)
         Me.TabPage1.Controls.Add(Me.TextBox1)
         Me.TabPage1.Controls.Add(Me.Button10)
-        Me.TabPage1.Controls.Add(Me.Button11)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Size = New System.Drawing.Size(337, 474)
@@ -418,9 +416,9 @@ Partial Class Main
         Me.Button12.BackColor = System.Drawing.SystemColors.ControlLight
         Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button12.ForeColor = System.Drawing.Color.Firebrick
-        Me.Button12.Location = New System.Drawing.Point(127, 40)
+        Me.Button12.Location = New System.Drawing.Point(46, 40)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(81, 23)
+        Me.Button12.Size = New System.Drawing.Size(115, 23)
         Me.Button12.TabIndex = 14
         Me.Button12.Text = "IR"
         Me.Button12.UseVisualStyleBackColor = False
@@ -445,24 +443,12 @@ Partial Class Main
         Me.Button10.BackColor = System.Drawing.SystemColors.ControlLight
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button10.Location = New System.Drawing.Point(214, 40)
+        Me.Button10.Location = New System.Drawing.Point(176, 40)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(75, 23)
+        Me.Button10.Size = New System.Drawing.Size(115, 23)
         Me.Button10.TabIndex = 11
         Me.Button10.Text = "Remove"
         Me.Button10.UseVisualStyleBackColor = False
-        '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button11.Location = New System.Drawing.Point(46, 40)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(75, 23)
-        Me.Button11.TabIndex = 10
-        Me.Button11.Text = "Search"
-        Me.Button11.UseVisualStyleBackColor = False
         '
         'Label30
         '
@@ -1165,6 +1151,5 @@ Partial Class Main
     Friend WithEvents ListBox6 As System.Windows.Forms.ListBox
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents Button10 As System.Windows.Forms.Button
-    Friend WithEvents Button11 As System.Windows.Forms.Button
     Friend WithEvents Button12 As System.Windows.Forms.Button
 End Class
