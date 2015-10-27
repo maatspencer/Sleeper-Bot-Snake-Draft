@@ -554,7 +554,9 @@ Public Class Main
     ' IR Search
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
         If Not ListBox6.SelectedItem = Nothing Then
-            UpdateItems.removeItem(ListBox6.SelectedItem.ToString)
+            Dim pos = ListBox6.SelectedItem.ToString.Split(" ")(0)
+            Dim name As String = ListBox6.SelectedItem.ToString.Replace(pos & " ", "")
+            UpdateItems.removeItem(name)
             initialBuild.buildFlex()
             initialBuild.buildOverall()
 
