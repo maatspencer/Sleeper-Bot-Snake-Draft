@@ -12,11 +12,7 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 70,11,TE,Larry Donnell,NYG,0.00,10.05
 69,12,TE,Ben Watson,NOS,0.00,10.05
 75,13,TE,Antonio Gates,SDC,-0.14,9.91
-<<<<<<< HEAD
 93,14,TE,Crockett Gillmore,BAL,-1.54,8.51
-=======
-94,14,TE,Crockett Gillmore,BAL,-1.54,8.51
->>>>>>> origin/master
 99,15,TE,Coby Fleener,IND,-2.04,8.01
 101,16,TE,Jordan Cameron,MIA,-2.12,7.93
 109,17,TE,Dwayne Allen,IND,-2.81,7.24
@@ -27,11 +23,7 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 122,22,TE,Heath Miller,PIT,-3.34,6.71
 129,23,TE,Owen Daniels,DEN,-3.86,6.19
 131,24,TE,Vernon Davis,SFO,-4.07,5.98
-<<<<<<< HEAD
 143,25,TE,Mychal Rivera,OAK,-4.48,5.57
-=======
-144,25,TE,Mychal Rivera,OAK,-4.48,5.57
->>>>>>> origin/master
 149,26,TE,Austin Seferian-Jenkins,TBB,-4.90,5.15
 157,27,TE,Jacob Tamme,ATL,-5.27,4.78
 162,28,TE,Jermaine Gresham,ARI,-5.53,4.52
@@ -57,11 +49,7 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 219,48,TE,Gavin Escobar,DAL,-8.13,1.92
 223,49,TE,C.J. Fiedorowicz,HOU,-8.23,1.82
 226,50,TE,Jim Dray,CLE,-8.25,1.80
-<<<<<<< HEAD
 229,51,TE,Brandon Pettigrew,DET,-8.30,1.75
-=======
-235,51,TE,Brandon Pettigrew,DET,-8.49,1.56
->>>>>>> origin/master
 242,52,TE,Levine Toilolo,ATL,-8.67,1.38
 244,53,TE,Jack Doyle,IND,-8.75,1.30
 246,54,TE,John Phillips,SDC,-8.80,1.25
@@ -69,13 +57,8 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 251,56,TE,James Hanna,DAL,-8.91,1.14
 253,57,TE,Rhett Ellison,MIN,-8.94,1.11
 255,58,TE,Jake Stoneburner,MIA,-9.01,1.04
-<<<<<<< HEAD
 258,59,TE,Luke Stocker,TBB,-9.07,0.98
 259,60,TE,Troy Niklas,ARI,-9.07,0.98
-=======
-259,59,TE,Luke Stocker,TBB,-9.07,0.98
-260,60,TE,Troy Niklas,ARI,-9.07,0.98
->>>>>>> origin/master
 262,61,TE,Vance McDonald,SFO,-9.09,0.96
 266,62,TE,Cooper Helfet,SEA,-9.27,0.78
 268,63,TE,MyCole Pruitt,MIN,-9.38,0.67
@@ -92,7 +75,6 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 288,74,TE,Justice Cunningham,STL,-9.83,0.22
 289,75,TE,Allen Reisner,JAC,-9.86,0.19
 292,76,TE,Dominique Jones,KCC,-10.03,0.02
-<<<<<<< HEAD
 293,77,TE,Phillip Supernaw,TEN,-10.04,0.01
 308,78,TE,Khari Lee,CHI,-10.05,0
 302,79,TE,E.J. Bibbs,CLE,-10.05,0
@@ -108,22 +90,5 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 298,89,TE,Tim Wright,DET,-10.05,0
 299,90,TE,Jace Amaro,NYJ,-10.05,0
 300,91,TE,Darren Fells,ARI,-10.05,0
-=======
-294,77,TE,Phillip Supernaw,TEN,-10.04,0.01
-295,78,TE,Khari Lee,CHI,-10.05,0
-296,79,TE,E.J. Bibbs,CLE,-10.05,0
-307,80,TE,C.J. Uzomah,CIN,-10.05,0
-308,81,TE,Jesse James,PIT,-10.05,0
-300,82,TE,Dennis Pitta,BAL,-10.05,0
-299,83,TE,Brian Parker,KCC,-10.05,0
-298,84,TE,Anthony Denham,HOU,-10.05,0
-297,85,TE,Zach Sudfeld,NYJ,-10.05,0
-301,86,TE,Andrew Quarless,GBP,-10.05,0
-302,87,TE,Ryan Griffin,HOU,-10.05,0
-303,88,TE,Gerald Christian,ARI,-10.05,0
-304,89,TE,Tim Wright,DET,-10.05,0
-305,90,TE,Jace Amaro,NYJ,-10.05,0
-306,91,TE,Darren Fells,ARI,-10.05,0
->>>>>>> origin/master
 310,92,TE,Jeff Heuerman,DEN,-10.05,0
 309,93,TE,Daniel Fells,NYG,-10.05,0

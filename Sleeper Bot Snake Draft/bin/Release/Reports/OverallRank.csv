@@ -91,13 +91,8 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 90,33,WR,Martavis Bryant,PIT,-1.41,11.25
 91,34,WR,Mike Wallace,MIN,-1.42,11.24
 92,35,WR,Michael Crabtree,OAK,-1.52,11.14
-<<<<<<< HEAD
 93,14,TE,Crockett Gillmore,BAL,-1.54,8.51
 94,30,RB,Shane Vereen,NYG,-1.54,9.79
-=======
-93,30,RB,Shane Vereen,NYG,-1.54,9.79
-94,14,TE,Crockett Gillmore,BAL,-1.54,8.51
->>>>>>> origin/master
 95,16,QB,Matthew Stafford,DET,-1.56,18.84
 96,36,WR,John Brown,ARI,-1.67,10.99
 97,37,WR,Malcom Floyd,SDC,-1.83,10.83
@@ -138,7 +133,6 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 132,49,WR,Michael Floyd,ARI,-4.09,8.57
 133,21,QB,Nick Foles,STL,-4.10,16.30
 134,50,WR,Torrey Smith,SFO,-4.11,8.55
-<<<<<<< HEAD
 135,41,RB,Benny Cunningham,STL,-4.20,7.13
 136,40,RB,Robert Turbin,CLE,-4.20,7.13
 137,51,WR,Vincent Jackson,TBB,-4.21,8.45
@@ -153,22 +147,6 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 146,57,WR,Andre Johnson,IND,-4.81,7.85
 147,23,QB,Teddy Bridgewater,MIN,-4.82,15.58
 148,43,RB,Joique Bell,DET,-4.84,6.49
-=======
-135,40,RB,Joique Bell,DET,-4.13,7.20
-136,41,RB,Benny Cunningham,STL,-4.20,7.13
-137,42,RB,Robert Turbin,CLE,-4.20,7.13
-138,51,WR,Vincent Jackson,TBB,-4.21,8.45
-139,53,WR,Davante Adams,GBP,-4.26,8.40
-140,52,WR,Terrance Williams,DAL,-4.26,8.40
-141,43,RB,Ahmad Bradshaw,IND,-4.29,7.04
-142,54,WR,Jermaine Kearse,SEA,-4.35,8.31
-143,22,QB,Jameis Winston,TBB,-4.42,15.98
-144,25,TE,Mychal Rivera,OAK,-4.48,5.57
-145,55,WR,Kamar Aiken,BAL,-4.49,8.17
-146,56,WR,Eddie Royal,CHI,-4.66,8.00
-147,57,WR,Andre Johnson,IND,-4.81,7.85
-148,23,QB,Teddy Bridgewater,MIN,-4.82,15.58
->>>>>>> origin/master
 149,26,TE,Austin Seferian-Jenkins,TBB,-4.90,5.15
 150,58,WR,Mohamed Sanu,CIN,-4.91,7.75
 151,59,WR,Corey Brown,CAR,-4.93,7.73
@@ -244,7 +222,6 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 221,77,WR,Harry Douglas,TEN,-8.18,4.48
 222,78,WR,Dwayne Harris,NYG,-8.22,4.44
 223,49,TE,C.J. Fiedorowicz,HOU,-8.23,1.82
-<<<<<<< HEAD
 224,79,WR,Charles Johnson,MIN,-8.24,4.42
 225,80,WR,Jerricho Cotchery,CAR,-8.24,4.42
 226,50,TE,Jim Dray,CLE,-8.25,1.80
@@ -257,20 +234,6 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 233,72,RB,Christine Michael,DAL,-8.38,2.95
 234,84,WR,Quinton Patton,SFO,-8.46,4.20
 235,85,WR,Marlon Brown,BAL,-8.47,4.19
-=======
-224,80,WR,Jerricho Cotchery,CAR,-8.24,4.42
-225,79,WR,Charles Johnson,MIN,-8.24,4.42
-226,50,TE,Jim Dray,CLE,-8.25,1.80
-227,81,WR,Lance Moore,DET,-8.27,4.39
-228,82,WR,Dontrelle Inman,SDC,-8.29,4.37
-229,83,WR,Andre Holmes,OAK,-8.33,4.33
-230,27,QB,Josh McCown,CLE,-8.34,12.06
-231,71,RB,Jonas Gray,MIA,-8.35,2.98
-232,72,RB,Christine Michael,DAL,-8.38,2.95
-233,84,WR,Quinton Patton,SFO,-8.46,4.20
-234,85,WR,Marlon Brown,BAL,-8.47,4.19
-235,51,TE,Brandon Pettigrew,DET,-8.49,1.56
->>>>>>> origin/master
 236,73,RB,Jeremy Langford,CHI,-8.53,2.8
 237,74,RB,Jonathan Grimes,HOU,-8.55,2.78
 238,75,RB,Terron Ward,ATL,-8.56,2.77
@@ -293,15 +256,9 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 255,58,TE,Jake Stoneburner,MIA,-9.01,1.04
 256,91,WR,Darrius Heyward-Bey,PIT,-9.04,3.62
 257,92,WR,Brian Quick,STL,-9.06,3.60
-<<<<<<< HEAD
 258,59,TE,Luke Stocker,TBB,-9.07,0.98
 259,60,TE,Troy Niklas,ARI,-9.07,0.98
 260,93,WR,Dorial Green-Beckham,TEN,-9.07,3.59
-=======
-258,93,WR,Dorial Green-Beckham,TEN,-9.07,3.59
-259,59,TE,Luke Stocker,TBB,-9.07,0.98
-260,60,TE,Troy Niklas,ARI,-9.07,0.98
->>>>>>> origin/master
 261,94,WR,Chris Conley,KCC,-9.08,3.58
 262,61,TE,Vance McDonald,SFO,-9.09,0.96
 263,81,RB,Fozzy Whittaker,CAR,-9.15,2.18
@@ -310,15 +267,9 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 266,62,TE,Cooper Helfet,SEA,-9.27,0.78
 267,82,RB,Rex Burkhead,CIN,-9.31,2.02
 268,63,TE,MyCole Pruitt,MIN,-9.38,0.67
-<<<<<<< HEAD
 269,83,RB,Zach Line,MIN,-9.42,1.91
 270,97,WR,Devin Funchess,CAR,-9.42,3.24
 271,98,WR,Jason Avant,KCC,-9.42,3.24
-=======
-269,97,WR,Devin Funchess,CAR,-9.42,3.24
-270,98,WR,Jason Avant,KCC,-9.42,3.24
-271,83,RB,Zach Line,MIN,-9.42,1.91
->>>>>>> origin/master
 272,64,TE,Cory Harkey,STL,-9.44,0.61
 273,65,TE,Craig Stevens,TEN,-9.45,0.6
 274,66,TE,Zach Miller,CHI,-9.45,0.6
@@ -340,7 +291,6 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 290,89,RB,Brandon Bolden,NEP,-9.86,1.47
 291,90,RB,Spencer Ware,KCC,-10.02,1.31
 292,76,TE,Dominique Jones,KCC,-10.03,0.02
-<<<<<<< HEAD
 293,77,TE,Phillip Supernaw,TEN,-10.04,0.01
 294,91,RB,Orleans Darkwa,NYG,-10.04,1.29
 295,86,TE,Andrew Quarless,GBP,-10.05,0
@@ -357,24 +307,6 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 306,83,TE,Brian Parker,KCC,-10.05,0
 307,81,TE,Jesse James,PIT,-10.05,0
 308,78,TE,Khari Lee,CHI,-10.05,0
-=======
-293,91,RB,Orleans Darkwa,NYG,-10.04,1.29
-294,77,TE,Phillip Supernaw,TEN,-10.04,0.01
-295,78,TE,Khari Lee,CHI,-10.05,0
-296,79,TE,E.J. Bibbs,CLE,-10.05,0
-297,85,TE,Zach Sudfeld,NYJ,-10.05,0
-298,84,TE,Anthony Denham,HOU,-10.05,0
-299,83,TE,Brian Parker,KCC,-10.05,0
-300,82,TE,Dennis Pitta,BAL,-10.05,0
-301,86,TE,Andrew Quarless,GBP,-10.05,0
-302,87,TE,Ryan Griffin,HOU,-10.05,0
-303,88,TE,Gerald Christian,ARI,-10.05,0
-304,89,TE,Tim Wright,DET,-10.05,0
-305,90,TE,Jace Amaro,NYJ,-10.05,0
-306,91,TE,Darren Fells,ARI,-10.05,0
-307,80,TE,C.J. Uzomah,CIN,-10.05,0
-308,81,TE,Jesse James,PIT,-10.05,0
->>>>>>> origin/master
 309,93,TE,Daniel Fells,NYG,-10.05,0
 310,92,TE,Jeff Heuerman,DEN,-10.05,0
 311,100,WR,Seth Roberts,OAK,-10.07,2.59
@@ -510,11 +442,7 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 441,53,QB,Luke McCown,NOS,-20.36,0.04
 442,75,QB,Connor Shaw,CLE,-20.40,0
 443,74,QB,Tony Romo,DAL,-20.40,0
-<<<<<<< HEAD
 296,73,QB,Ryan Griffin,TBB,-20.40,0
-=======
-302,73,QB,Ryan Griffin,TBB,-20.40,0
->>>>>>> origin/master
 445,72,QB,Alex Tanney,CLE,-20.40,0
 446,71,QB,Bruce Gradkowski,PIT,-20.40,0
 447,70,QB,Tyler Bray,KCC,-20.40,0
