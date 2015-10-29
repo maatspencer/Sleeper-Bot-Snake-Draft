@@ -49,6 +49,7 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 128,48,WR,Cecil Shorts,HOU,-3.67,8.99
 132,49,WR,Michael Floyd,ARI,-4.09,8.57
 134,50,WR,Torrey Smith,SFO,-4.11,8.55
+<<<<<<< HEAD
 137,51,WR,Vincent Jackson,TBB,-4.21,8.45
 139,52,WR,Terrance Williams,DAL,-4.26,8.40
 138,53,WR,Davante Adams,GBP,-4.26,8.40
@@ -56,6 +57,15 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 144,55,WR,Kamar Aiken,BAL,-4.49,8.17
 145,56,WR,Eddie Royal,CHI,-4.66,8.00
 146,57,WR,Andre Johnson,IND,-4.81,7.85
+=======
+138,51,WR,Vincent Jackson,TBB,-4.21,8.45
+140,52,WR,Terrance Williams,DAL,-4.26,8.40
+139,53,WR,Davante Adams,GBP,-4.26,8.40
+142,54,WR,Jermaine Kearse,SEA,-4.35,8.31
+145,55,WR,Kamar Aiken,BAL,-4.49,8.17
+146,56,WR,Eddie Royal,CHI,-4.66,8.00
+147,57,WR,Andre Johnson,IND,-4.81,7.85
+>>>>>>> origin/master
 150,58,WR,Mohamed Sanu,CIN,-4.91,7.75
 151,59,WR,Corey Brown,CAR,-4.93,7.73
 156,60,WR,Kenny Stills,MIA,-5.25,7.41
@@ -77,6 +87,7 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 204,76,WR,Leonard Hankerson,ATL,-7.22,5.44
 221,77,WR,Harry Douglas,TEN,-8.18,4.48
 222,78,WR,Dwayne Harris,NYG,-8.22,4.44
+<<<<<<< HEAD
 224,79,WR,Charles Johnson,MIN,-8.24,4.42
 225,80,WR,Jerricho Cotchery,CAR,-8.24,4.42
 227,81,WR,Lance Moore,DET,-8.27,4.39
@@ -84,6 +95,15 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 230,83,WR,Andre Holmes,OAK,-8.33,4.33
 234,84,WR,Quinton Patton,SFO,-8.46,4.20
 235,85,WR,Marlon Brown,BAL,-8.47,4.19
+=======
+225,79,WR,Charles Johnson,MIN,-8.24,4.42
+224,80,WR,Jerricho Cotchery,CAR,-8.24,4.42
+227,81,WR,Lance Moore,DET,-8.27,4.39
+228,82,WR,Dontrelle Inman,SDC,-8.29,4.37
+229,83,WR,Andre Holmes,OAK,-8.33,4.33
+233,84,WR,Quinton Patton,SFO,-8.46,4.20
+234,85,WR,Marlon Brown,BAL,-8.47,4.19
+>>>>>>> origin/master
 241,86,WR,Jordan Norwood,DEN,-8.66,4.00
 243,87,WR,Ty Montgomery,GBP,-8.68,3.98
 247,88,WR,De'Anthony Thomas,KCC,-8.86,3.8
@@ -91,12 +111,21 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 254,90,WR,Cordarrelle Patterson,MIN,-8.98,3.68
 256,91,WR,Darrius Heyward-Bey,PIT,-9.04,3.62
 257,92,WR,Brian Quick,STL,-9.06,3.60
+<<<<<<< HEAD
 260,93,WR,Dorial Green-Beckham,TEN,-9.07,3.59
 261,94,WR,Chris Conley,KCC,-9.08,3.58
 264,95,WR,Jaelen Strong,HOU,-9.17,3.49
 265,96,WR,Dwayne Bowe,CLE,-9.25,3.41
 270,97,WR,Devin Funchess,CAR,-9.42,3.24
 271,98,WR,Jason Avant,KCC,-9.42,3.24
+=======
+258,93,WR,Dorial Green-Beckham,TEN,-9.07,3.59
+261,94,WR,Chris Conley,KCC,-9.08,3.58
+264,95,WR,Jaelen Strong,HOU,-9.17,3.49
+265,96,WR,Dwayne Bowe,CLE,-9.25,3.41
+269,97,WR,Devin Funchess,CAR,-9.42,3.24
+270,98,WR,Jason Avant,KCC,-9.42,3.24
+>>>>>>> origin/master
 280,99,WR,Brandon Coleman,NOS,-9.63,3.03
 311,100,WR,Seth Roberts,OAK,-10.07,2.59
 312,101,WR,Donteea Dye,TBB,-10.14,2.52

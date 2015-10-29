@@ -28,7 +28,11 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 78,27,RB,C.J. Anderson,DEN,-0.26,11.07
 82,28,RB,Theo Riddick,DET,-0.71,10.62
 87,29,RB,Charles Sims,TBB,-1.15,10.18
+<<<<<<< HEAD
 94,30,RB,Shane Vereen,NYG,-1.54,9.79
+=======
+93,30,RB,Shane Vereen,NYG,-1.54,9.79
+>>>>>>> origin/master
 104,31,RB,LeGarrette Blount,NEP,-2.53,8.80
 110,32,RB,David Johnson,ARI,-2.81,8.52
 113,33,RB,Danny Woodhead,SDC,-2.85,8.48
@@ -38,10 +42,17 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 125,37,RB,Eddie Lacy,GBP,-3.43,7.90
 127,38,RB,C.J. Spiller,NOS,-3.67,7.66
 130,39,RB,Rashad Jennings,NYG,-3.89,7.44
+<<<<<<< HEAD
 136,40,RB,Robert Turbin,CLE,-4.20,7.13
 135,41,RB,Benny Cunningham,STL,-4.20,7.13
 140,42,RB,Ahmad Bradshaw,IND,-4.29,7.04
 148,43,RB,Joique Bell,DET,-4.84,6.49
+=======
+135,40,RB,Joique Bell,DET,-4.13,7.20
+136,41,RB,Benny Cunningham,STL,-4.20,7.13
+137,42,RB,Robert Turbin,CLE,-4.20,7.13
+141,43,RB,Ahmad Bradshaw,IND,-4.29,7.04
+>>>>>>> origin/master
 153,44,RB,Bilal Powell,NYJ,-5.18,6.15
 155,45,RB,Knile Davis,KCC,-5.20,6.13
 158,46,RB,Javorius Allen,BAL,-5.37,5.96
@@ -69,8 +80,13 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 216,68,RB,Donald Brown,SDC,-7.84,3.49
 217,69,RB,Melvin Gordon,SDC,-7.89,3.44
 220,70,RB,Terrance West,TEN,-8.17,3.16
+<<<<<<< HEAD
 232,71,RB,Jonas Gray,MIA,-8.35,2.98
 233,72,RB,Christine Michael,DAL,-8.38,2.95
+=======
+231,71,RB,Jonas Gray,MIA,-8.35,2.98
+232,72,RB,Christine Michael,DAL,-8.38,2.95
+>>>>>>> origin/master
 236,73,RB,Jeremy Langford,CHI,-8.53,2.8
 237,74,RB,Jonathan Grimes,HOU,-8.55,2.78
 238,75,RB,Terron Ward,ATL,-8.56,2.77
@@ -81,7 +97,11 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 252,80,RB,Kyle Juszczyk,BAL,-8.91,2.42
 263,81,RB,Fozzy Whittaker,CAR,-9.15,2.18
 267,82,RB,Rex Burkhead,CIN,-9.31,2.02
+<<<<<<< HEAD
 269,83,RB,Zach Line,MIN,-9.42,1.91
+=======
+271,83,RB,Zach Line,MIN,-9.42,1.91
+>>>>>>> origin/master
 278,84,RB,Jordan Todman,PIT,-9.61,1.72
 282,85,RB,James White,NEP,-9.65,1.68
 281,86,RB,Stevan Ridley,NYJ,-9.65,1.68
@@ -89,7 +109,11 @@ Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points
 285,88,RB,Stepfan Taylor,ARI,-9.69,1.64
 290,89,RB,Brandon Bolden,NEP,-9.86,1.47
 291,90,RB,Spencer Ware,KCC,-10.02,1.31
+<<<<<<< HEAD
 294,91,RB,Orleans Darkwa,NYG,-10.04,1.29
+=======
+293,91,RB,Orleans Darkwa,NYG,-10.04,1.29
+>>>>>>> origin/master
 313,92,RB,Mike Davis,SFO,-10.17,1.16
 318,93,RB,Patrick DiMarco,ATL,-10.38,0.95
 317,94,RB,Alonzo Harris,GBP,-10.38,0.95
