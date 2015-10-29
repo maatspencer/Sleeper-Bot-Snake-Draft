@@ -528,6 +528,15 @@ Public Class Main
             Next
         End Using
 
+        'QB
+        Using sw As StreamWriter = New StreamWriter(My.Application.Info.DirectoryPath & "/Reports/QBRank.csv")
+            sw.WriteLine("Overall Rank,Position Rank,Position,Name,Team,CSR Points,Points")
+            For i = 0 To oQB.Count - 1
+                Dim t As Offense = oQB.Item(i)
+                sw.WriteLine(t.OvrRank & "," & t.PosRank & "," & t.Pos & "," & t.name & "," & t.team & "," & t.CSRPoints & "," & t.Points)
+            Next
+        End Using
+
         MessageBox.Show("Done. Located in: " & vbNewLine & My.Application.Info.DirectoryPath & "/Reports")
 
 
